@@ -11,9 +11,7 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -22,7 +20,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +39,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Developement",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React/Next.js Frontend",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack (APIs/CMSs)",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -92,22 +85,12 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+
   {
     name: "docker",
     icon: docker,
@@ -116,55 +99,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Sr. Web Developer & React Frontend Engineer",
+    company_name: "Cyberize Group Inc.",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2018 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed Apps  w/ ES6/React.js & Next.js & w/ backend API-s & CMS-s (Sanity.io, GraphCMS, WordPress, WooCommerce etc.)",
+      "Developed WordPress Websites & plugins from Scratch w/ ES6 JS, React.js & PHP",
+      "Deployed React/Next.js-based applications via KSH shell scripts, Docker, SSH & Docker Hub",
+      "Managed & Maintained 3 Linux- based VPS-s with WHM, cPanel/Plesk & Docker (Development, Staging & Client’s)",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "React Frontend Developer",
+    company_name: "DeepCast.ai",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2017 - Feb 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed company website as a React App according to design",
+      "Converted that React App into a website & a progressive web app with Next.js",
+      "Deployed projects into staging (Digital Ocean droplet) using KSH shell script, Docker & Docker Hub",
+      "Did research and collected information for the CTO about React-related tech stacks (Next.js, Node.js/Express, React Bootstrap, Docker etc.)",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Web Designer & Developer (Freelancer)",
+    company_name: "HtmlFiveDev.com",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2012 - Oct 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built Custom Site from scratch based on my own Theme Development Framework called Moose Framework",
+      "Converted Website Designs (PSDs)  to full blown WordPress Sites for clients",
+      "Customized Premiem WP Themes to build client websites",
+      "Deployed & maintained WP websites on several hosting platforms (Bluehost, Godaddy, Siteground etc.)",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Web Master",
+    company_name: "eTech Corners LLC.",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sep 2010 - Oct 2012",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managed and maintained web hosting VPS-s w/ WHM & cPanel",
+      "Secured WordPress Websites manually with PHP and with plugins",
+      "Deployed websites via SSH and performed backup/restore operations",
+      "Increased site load speed and performed benchmark tests using GTMatrix, Pingdom etc.",
     ],
   },
 ];
