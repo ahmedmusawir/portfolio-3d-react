@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github, eye } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { projectsUiUx } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { BsFillEyeFill } from "react-icons/bs";
 
@@ -38,7 +38,7 @@ const ProjectCard = ({
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer z-50"
             >
               <img
                 src={github}
@@ -84,11 +84,11 @@ const WorksUiUx = () => {
         className="mt-10 text-center text-[2.5rem]"
         style={{ marginTop: "-4rem" }}
       >
-        React Ui/Ux
+        React Ui/Ux & Deployment
       </h4>
 
       <div className="mt-10 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
+        {projectsUiUx.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>

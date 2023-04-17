@@ -7,7 +7,7 @@ import { github, eye } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import { BsEye, BsFillEyeFill } from "react-icons/bs";
+import { BsFillEyeFill } from "react-icons/bs";
 
 const ProjectCard = ({
   index,
@@ -38,7 +38,7 @@ const ProjectCard = ({
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer z-50"
             >
               <img
                 src={github}

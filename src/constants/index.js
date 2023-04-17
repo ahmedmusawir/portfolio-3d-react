@@ -17,9 +17,24 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  crypto,
+  realestate,
+  blog,
+  dalle,
+  dashboard,
+  deepcast,
+  reactDeploy,
+  dockerDeploy,
+  folio3d,
+  folioSanity,
+  gym,
+  rico,
+  travel,
+  storeSanity,
+  selflist,
+  traffic2lead,
+  woocom,
+  chatapi,
 } from "../assets";
 
 export const navLinks = [
@@ -30,6 +45,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "resume",
+    title: "Resume",
   },
   {
     id: "contact",
@@ -181,31 +200,51 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Cyber Crypto",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Crypto Currency Statistics based app built with React/Next.js frontend and two Crypto Currency API-s. Redux Toolkit was implemented for data fetching. Ant Design Ui/Ux Library & SCSS were used for styling.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "restapi",
         color: "pink-text-gradient",
       },
+      {
+        name: "antdesign",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "coinranking-api",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bingnewssearch-api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-    project_link: "https://google.com/",
+    image: crypto,
+    source_code_link: "https://github.com/ahmedmusawir/cyber-crypto-react-api",
+    project_link: "https://www.youtube.com/watch?v=WIBJyZnYduk",
   },
   {
-    name: "Job IT",
+    name: "Real Estate",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A React/Next.js based responsive real estate project. A Dubai real estate based API was used at the backend as data source. Material UI was used as a Ui/Ux framework. Static page generation, complex data filtering over API etc. were implemented.",
     tags: [
       {
         name: "react",
@@ -219,33 +258,592 @@ const projects = [
         name: "scss",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-    project_link: "https://google.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "materialui",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "bayut-api",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    project_link: "https://google.com/",
+    image: realestate,
+    source_code_link: "https://github.com/ahmedmusawir/realestate-react-api",
+    project_link: "https://www.youtube.com/watch?v=HQGNrzJOHx0",
+  },
+  {
+    name: "Cyber Gym",
+    description:
+      "A React App based on GoldGym's API as a backend datasource. Material UI and SCSS were used for styling. Redux Toolkit was used for data fetching & caching. A YouTube Search API was used to bring in related workout videos",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "goldsgym-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gym,
+    source_code_link: "https://github.com/ahmedmusawir/gym-react-api",
+    project_link: "https://www.youtube.com/watch?v=IHU5PL2Hk_Q&t=8s",
+  },
+  {
+    name: "SelfLIST Chat",
+    description:
+      "A React based Chat App created to be used in the SelfLIST App. At the backend Chat API service was used. After building, this was converted into a WordPress plugin and used in the SelfLIST app. Gulp.js was used for React and SCSS compilation.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chat-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+    ],
+    image: chatapi,
+    source_code_link: "https://github.com/ahmedmusawir/moose-chat-plugin-v2",
+    project_link: "https://www.youtube.com/watch?v=bTtGNLYV66w&t=91s",
+  },
+  {
+    name: "Chat GPT v3",
+    description:
+      "Created a frontend interface (w/ vanilla JS) and a middleware (Node/Express) to connect with Open AI API at the backend. SCSS was used to styling. Both frontend and the middleware were deployed with Docker.",
+    tags: [
+      {
+        name: "es6-javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "openai-api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+    ],
+    image: rico,
+    source_code_link: "https://github.com/ahmedmusawir/chat-gpt-ai-vanilla-js",
+    project_link: "https://www.youtube.com/watch?v=4-9TujoCrZA&t=3s",
+  },
+  {
+    name: "Traffic2Lead",
+    description:
+      "A React based WordPress plugin. This one pulls data from SimilarWeb API and displays the data for anaylzing with charts. Also, calculates the Lead count and emails the client.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "php",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "similarweb-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "emailjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+    ],
+    image: traffic2lead,
+    source_code_link: "https://github.com/ahmedmusawir/traffic2lead",
+    project_link: "https://www.youtube.com/watch?v=GZntq1RV6cs&t=1s",
+  },
+  {
+    name: "Travel Advisor",
+    description:
+      "A React app with Google Map API, Google Places API and Tripadvisor API at the backend. This was part of another larger client project. Complex data filtering and data visualization on maps were implemented. Material UI and SCSS were used for styling.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "googleplaces-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tripadvior-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: travel,
+    source_code_link:
+      "https://github.com/ahmedmusawir/travel-advisor-react-api",
+    project_link: "https://www.youtube.com/watch?v=mebvSt4gShQ",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const projectsUiUx = [
+  {
+    name: "DeepCast.ai",
+    description:
+      "This is a React and Next.js based website project for DeepCast.ai. This is mostly a Ui/Ux project using Bootstrap and React Bootstrap Ui/Ux responsive framework. SCSS and Styled Components were used for styling.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "styledcomponents",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "reactbootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: deepcast,
+    source_code_link: "https://github.com/ahmedmusawir/dc_next_pwa_stage_9",
+    project_link: "https://www.youtube.com/watch?v=hFo1R-6amCM&t=5s",
+  },
+  {
+    name: "Cyber Dash",
+    description:
+      "Modern Ui/Ux Dashboard with React.js & Syncfusion UI Library. SCSS and Tailwind CSS Library were used for styling and mobile responsive work. It consists of 4 pages, 4 small apps and lots of fancy charts. This was an R&D project for Cyberize Group.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "syncfusion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: dashboard,
+    source_code_link:
+      "https://github.com/ahmedmusawir/dashboard-syncfusion-react",
+    project_link: "https://www.youtube.com/watch?v=AS4eU1BiyDg",
+  },
+  {
+    name: "The 3D Portfolio",
+    description:
+      "My portfolio app built with React, Framer Motion and 3JS (for 3d models). Tailwind CSS was used for styling and mobile responsive work. Used localized data source. This was an educational project. This will be the final version of my Portfolio.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "emailjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: folio3d,
+    source_code_link: "https://github.com/ahmedmusawir/portfolio-3d-react",
+    project_link: "https://www.youtube.com/watch?v=n7OVtiI52-c",
+  },
+  {
+    name: "Docker Deployment",
+    description:
+      "This describes my process of Docker and Docker hub-based React/Next.js Apps deployments into our Digital Ocean staging droplet. I use a Bash Shell script over a SSH connection.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "dockerhub",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openssh",
+        color: "green-text-gradient",
+      },
+    ],
+    image: dockerDeploy,
+    source_code_link:
+      "https://github.com/ahmedmusawir/gym-react-api/blob/main/docker-deploy.sh",
+    project_link: "https://www.youtube.com/watch?v=m3xGbxcdVi0",
+  },
+  {
+    name: "React App Deployment",
+    description:
+      "This describes my process of deploying React Apps into our cPanel/Plesk based Virtual Hosts. I use a Bash Shell script over a SSH connection. Please watch the video for details.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bash",
+        color: "green-text-gradient",
+      },
+      {
+        name: "openssh",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "cpanel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "plesk",
+        color: "green-text-gradient",
+      },
+    ],
+    image: reactDeploy,
+    source_code_link:
+      "https://github.com/ahmedmusawir/travel-advisor-react-api/blob/main/deploy-to-cyberize.sh",
+    project_link: "https://www.youtube.com/watch?v=PAqFIJnQ2aU&t=2s",
+  },
+];
+
+const projectsFullStack = [
+  {
+    name: "Cyber Crypto",
+    description:
+      "A Crypto Currency Statistics based app built with React/Next.js frontend and two Crypto Currency API-s. Redux Toolkit was implemented for data fetching. Ant Design Ui/Ux Library & SCSS were used for styling.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "antdesign",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "coinranking-api",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bingnewssearch-api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+    ],
+    image: crypto,
+    source_code_link: "https://github.com/ahmedmusawir/cyber-crypto-react-api",
+    project_link: "https://www.youtube.com/watch?v=WIBJyZnYduk",
+  },
+  {
+    name: "Real Estate",
+    description:
+      "A React/Next.js based responsive real estate project. A Dubai real estate based API was used at the backend as data source. Material UI was used as a Ui/Ux framework. Static page generation, complex data filtering over API etc. were implemented.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bayut-api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: realestate,
+    source_code_link: "https://github.com/ahmedmusawir/realestate-react-api",
+    project_link: "https://www.youtube.com/watch?v=HQGNrzJOHx0",
+  },
+  {
+    name: "Cyber Gym",
+    description:
+      "A React App based on GoldGym's API as a backend datasource. Material UI and SCSS were used for styling. Redux Toolkit was used for data fetching & caching. A YouTube Search API was used to bring in related workout videos",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "goldsgym-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gym,
+    source_code_link: "https://github.com/ahmedmusawir/gym-react-api",
+    project_link: "https://www.youtube.com/watch?v=IHU5PL2Hk_Q&t=8s",
+  },
+  {
+    name: "SelfLIST Chat",
+    description:
+      "A React based Chat App created to be used in the SelfLIST App. At the backend Chat API service was used. After building, this was converted into a WordPress plugin and used in the SelfLIST app. Gulp.js was used for React and SCSS compilation.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chat-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+    ],
+    image: chatapi,
+    source_code_link: "https://github.com/ahmedmusawir/moose-chat-plugin-v2",
+    project_link: "https://www.youtube.com/watch?v=bTtGNLYV66w&t=91s",
+  },
+  {
+    name: "Chat GPT v3",
+    description:
+      "Created a frontend interface (w/ vanilla JS) and a middleware (Node/Express) to connect with Open AI API at the backend. SCSS was used to styling. Both frontend and the middleware were deployed with Docker.",
+    tags: [
+      {
+        name: "es6-javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "openai-api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+    ],
+    image: rico,
+    source_code_link: "https://github.com/ahmedmusawir/chat-gpt-ai-vanilla-js",
+    project_link: "https://www.youtube.com/watch?v=4-9TujoCrZA&t=3s",
+  },
+  {
+    name: "Traffic2Lead",
+    description:
+      "A React based WordPress plugin. This one pulls data from SimilarWeb API and displays the data for anaylzing with charts. Also, calculates the Lead count and emails the client.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "php",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "similarweb-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "emailjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+    ],
+    image: traffic2lead,
+    source_code_link: "https://github.com/ahmedmusawir/traffic2lead",
+    project_link: "https://www.youtube.com/watch?v=GZntq1RV6cs&t=1s",
+  },
+  {
+    name: "Travel Advisor",
+    description:
+      "A React app with Google Map API, Google Places API and Tripadvisor API at the backend. This was part of another larger client project. Complex data filtering and data visualization on maps were implemented. Material UI and SCSS were used for styling.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "googleplaces-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tripadvior-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: travel,
+    source_code_link:
+      "https://github.com/ahmedmusawir/travel-advisor-react-api",
+    project_link: "https://www.youtube.com/watch?v=mebvSt4gShQ",
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  projectsUiUx,
+  projectsFullStack,
+};

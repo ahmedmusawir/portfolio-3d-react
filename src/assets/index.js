@@ -28,9 +28,24 @@ import shopify from "./company/htmlfivedev-logo.jpg";
 import starbucks from "./company/cyberize-logo.jpg";
 import tesla from "./company/deepcast-logo.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import crypto from "./crypto.jpg";
+import realestate from "./realestate.jpg";
+import blog from "./blog.jpg";
+import dalle from "./dalle.jpg";
+import dashboard from "./dashboard.jpg";
+import deepcast from "./deepcast.jpg";
+import reactDeploy from "./deploy.jpg";
+import dockerDeploy from "./docker.jpg";
+import folio3d from "./folio-3d.jpg";
+import folioSanity from "./folio-sanity.jpg";
+import gym from "./gym.jpg";
+import rico from "./rico.jpg";
+import travel from "./travel.jpg";
+import storeSanity from "./store-sanity.jpg";
+import selflist from "./selflist.jpg";
+import traffic2lead from "./traffic2lead.jpg";
+import woocom from "./woocom.jpg";
+import chatapi from "./chatapi.jpg";
 
 export {
   logo,
@@ -59,7 +74,22 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  crypto,
+  realestate,
+  blog,
+  dalle,
+  dashboard,
+  deepcast,
+  reactDeploy,
+  dockerDeploy,
+  folio3d,
+  folioSanity,
+  gym,
+  rico,
+  travel,
+  storeSanity,
+  selflist,
+  traffic2lead,
+  woocom,
+  chatapi,
 };
