@@ -598,9 +598,9 @@ const projectsUiUx = [
 
 const projectsFullStack = [
   {
-    name: "Cyber Crypto",
+    name: "Sanity Store",
     description:
-      "A Crypto Currency Statistics based app built with React/Next.js frontend and two Crypto Currency API-s. Redux Toolkit was implemented for data fetching. Ant Design Ui/Ux Library & SCSS were used for styling.",
+      "A React/Next.js based Ecommerce Store with the Sanity.io CMS as backend and Stripe was used for transactions. Tailwind CSS and SCSS were used for styling and mobile responsive works.",
     tags: [
       {
         name: "react",
@@ -611,45 +611,38 @@ const projectsFullStack = [
         color: "green-text-gradient",
       },
       {
-        name: "restapi",
+        name: "sanity.io",
         color: "pink-text-gradient",
       },
       {
-        name: "antdesign",
+        name: "tailwindcss",
         color: "blue-text-gradient",
       },
       {
-        name: "redux",
+        name: "stripe",
         color: "green-text-gradient",
-      },
-      {
-        name: "coinranking-api",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "bingnewssearch-api",
-        color: "blue-text-gradient",
       },
       {
         name: "scss",
         color: "green-text-gradient",
       },
     ],
-    image: crypto,
-    source_code_link: "https://github.com/ahmedmusawir/cyber-crypto-react-api",
-    project_link: "https://www.youtube.com/watch?v=WIBJyZnYduk",
+    image: storeSanity,
+    source_code_link:
+      "https://github.com/ahmedmusawir/ecom-sanity-stripe-nextjs",
+    project_link: "https://www.youtube.com/watch?v=cFluU5B3wtw",
   },
   {
-    name: "Real Estate",
+    name: "Cyber Blog",
     description:
-      "A React/Next.js based responsive real estate project. A Dubai real estate based API was used at the backend as data source. Material UI was used as a Ui/Ux framework. Static page generation, complex data filtering over API etc. were implemented.",
+      "A React/Next.js based blog app  with the GraphCMS as a backend GraphQL based headless CMS. Tailwind CSS and SCSS were used for styling and mobile responsive works.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "graphcms",
         color: "green-text-gradient",
       },
       {
@@ -661,22 +654,22 @@ const projectsFullStack = [
         color: "blue-text-gradient",
       },
       {
-        name: "materialui",
+        name: "graphql",
         color: "green-text-gradient",
       },
       {
-        name: "bayut-api",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: realestate,
-    source_code_link: "https://github.com/ahmedmusawir/realestate-react-api",
-    project_link: "https://www.youtube.com/watch?v=HQGNrzJOHx0",
+    image: blog,
+    source_code_link: "https://github.com/ahmedmusawir/blog-graphcms-nextjs",
+    project_link: "https://www.youtube.com/watch?v=9n6Qd-IH8l4&t=3s",
   },
   {
-    name: "Cyber Gym",
+    name: "Cyber Woocom",
     description:
-      "A React App based on GoldGym's API as a backend datasource. Material UI and SCSS were used for styling. Redux Toolkit was used for data fetching & caching. A YouTube Search API was used to bring in related workout videos",
+      "A React based Ecommerce Store with Woocommerce (on WordPress) as a headless CMS and Stripe was used for transactions. Bootstrap and SCSS were used for styling and mobile responsive works.",
     tags: [
       {
         name: "react",
@@ -691,29 +684,33 @@ const projectsFullStack = [
         color: "blue-text-gradient",
       },
       {
-        name: "goldsgym-api",
+        name: "woocommerce-api",
         color: "green-text-gradient",
       },
       {
-        name: "materialui",
+        name: "php",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "stripe",
         color: "pink-text-gradient",
       },
     ],
-    image: gym,
-    source_code_link: "https://github.com/ahmedmusawir/gym-react-api",
-    project_link: "https://www.youtube.com/watch?v=IHU5PL2Hk_Q&t=8s",
+    image: woocom,
+    source_code_link: "https://github.com/ahmedmusawir/react-woocom-stripe",
+    project_link: "https://www.youtube.com/watch?v=FYucGW87-EI",
   },
   {
-    name: "SelfLIST Chat",
+    name: "SelfLIST",
     description:
-      "A React based Chat App created to be used in the SelfLIST App. At the backend Chat API service was used. After building, this was converted into a WordPress plugin and used in the SelfLIST app. Gulp.js was used for React and SCSS compilation.",
+      "A membership-based personal listing application built on WordPress w/ 80% ES6 Javascript (WP REST API & Ajax) & 20% custom PHP. JS OOP was used w/ Classes, Modules, Inheritance etc. Woocommerce & Stripe were used for ecommerce.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "chat-api",
+        name: "es6-javascript",
         color: "green-text-gradient",
       },
       {
@@ -729,17 +726,17 @@ const projectsFullStack = [
         color: "green-text-gradient",
       },
     ],
-    image: chatapi,
-    source_code_link: "https://github.com/ahmedmusawir/moose-chat-plugin-v2",
-    project_link: "https://www.youtube.com/watch?v=bTtGNLYV66w&t=91s",
+    image: selflist,
+    source_code_link: "https://github.com/ahmedmusawir/selflist-expv10",
+    project_link: "https://www.youtube.com/watch?v=6V2ONUGgjNE",
   },
   {
-    name: "Chat GPT v3",
+    name: "Dall-e AI",
     description:
-      "Created a frontend interface (w/ vanilla JS) and a middleware (Node/Express) to connect with Open AI API at the backend. SCSS was used to styling. Both frontend and the middleware were deployed with Docker.",
+      "An image share app with React frontend and Dall-e AI (Open AI) API at the backend. A middleware (API) with Node.js/Express was created with a MongoDB backend. Also, Cloudinary image hosting service was used to upload the AI generated images.",
     tags: [
       {
-        name: "es6-javascript",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
@@ -758,83 +755,44 @@ const projectsFullStack = [
         name: "scss",
         color: "green-text-gradient",
       },
+      {
+        name: "cloudinary",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
     ],
-    image: rico,
-    source_code_link: "https://github.com/ahmedmusawir/chat-gpt-ai-vanilla-js",
-    project_link: "https://www.youtube.com/watch?v=4-9TujoCrZA&t=3s",
+    image: dalle,
+    source_code_link: "https://github.com/ahmedmusawir/openai-dalle-react-api",
+    project_link: "https://www.youtube.com/watch?v=Jbyfu-TisRo",
   },
   {
-    name: "Traffic2Lead",
+    name: "Portfolio Sanity",
     description:
-      "A React based WordPress plugin. This one pulls data from SimilarWeb API and displays the data for anaylzing with charts. Also, calculates the Lead count and emails the client.",
+      "This is my first attempt at my own portfolio. React is used at the frontend and Sanity.io at as a headless CMS at the backend. Pure SCSS was used for styling and Framer Motion was used for animation.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "sanity.io",
         color: "green-text-gradient",
       },
       {
-        name: "php",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "similarweb-api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "emailjs",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "green-text-gradient",
-      },
-    ],
-    image: traffic2lead,
-    source_code_link: "https://github.com/ahmedmusawir/traffic2lead",
-    project_link: "https://www.youtube.com/watch?v=GZntq1RV6cs&t=1s",
-  },
-  {
-    name: "Travel Advisor",
-    description:
-      "A React app with Google Map API, Google Places API and Tripadvisor API at the backend. This was part of another larger client project. Complex data filtering and data visualization on maps were implemented. Material UI and SCSS were used for styling.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "google-api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "googleplaces-api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tripadvior-api",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
         name: "scss",
         color: "blue-text-gradient",
       },
-      {
-        name: "materialui",
-        color: "pink-text-gradient",
-      },
     ],
-    image: travel,
-    source_code_link:
-      "https://github.com/ahmedmusawir/travel-advisor-react-api",
-    project_link: "https://www.youtube.com/watch?v=mebvSt4gShQ",
+    image: folioSanity,
+    source_code_link: "https://github.com/ahmedmusawir/portfolio-sanity-react",
+    project_link: "https://www.youtube.com/watch?v=Ul925v-TGzY",
   },
 ];
 
