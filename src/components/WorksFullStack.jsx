@@ -84,7 +84,7 @@ const WorksFullStack = () => {
         Full Stack w/ CMS-s
       </h4>
 
-      <div className="mt-10 flex flex-wrap gap-7">
+      <div className="mt-10 flex flex-wrap gap-7 justify-center">
         {projectsFullStack.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

@@ -87,7 +87,7 @@ const WorksUiUx = () => {
         React Ui/Ux & Deployment
       </h4>
 
-      <div className="mt-10 flex flex-wrap gap-7">
+      <div className="mt-10 flex flex-wrap gap-7 justify-center">
         {projectsUiUx.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

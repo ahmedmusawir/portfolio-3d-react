@@ -47,6 +47,10 @@ import traffic2lead from "./traffic2lead.jpg";
 import woocom from "./woocom.jpg";
 import chatapi from "./chatapi.jpg";
 
+import arturo from "./arturo-kyle.jpg";
+import rami from "./rami-riza.jpg";
+import lilian from "./lillian-lue.jpg";
+
 export {
   logo,
   backend,
@@ -92,4 +96,7 @@ export {
   traffic2lead,
   woocom,
   chatapi,
+  arturo,
+  rami,
+  lilian,
 };

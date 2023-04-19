@@ -35,6 +35,9 @@ import {
   traffic2lead,
   woocom,
   chatapi,
+  arturo,
+  rami,
+  lilian,
 } from "../assets";
 
 export const navLinks = [
@@ -174,27 +177,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "I wholeheartedly recommend Moose for any frontend development position. As CTO at DeepCast.ai, I supervised Moose for a while, witnessing his exceptional technical skills and dedication to project success. He contributed to various projects using ES6 JavaScript, React.js, Next.js, and more while actively participating in R&D efforts. Moose is an effective communicator, team player, and quick learner, making him an invaluable asset. I have no doubt he will continue to excel and make significant contributions in his future endeavors.",
+    name: "Arturo Kyle",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "DeepCast.ai",
+    image: arturo,
+  },
+  {
+    testimonial:
+      "Working with Da Moose (Ahmed Musawir) has inspired me to achieve higher goals, because he encouraged me to reach out past my boundaries. I had an opportunity to work with him on TrinityMultiWorld.com project when he volunteered to help us on behalf of HTMLfiveDev.com. If asked, Moose (Ahmed Muswir) gave helpful criticisms of my work and then would volunteer to help me implement the solutions. He was a team player who could always be counted on to put in more than his share of the work. I'm proud to call him my friend and mentor.",
+    name: "Rami Riza",
+    designation: "Web Designer",
+    company: "TrinityMultiWorld SDN BHD",
+    image: rami,
+  },
+  {
+    testimonial:
+      "HTMLfiveDev.com designed my website with flair and originality, and was spot on in terms of what I was looking to achieve with it. I've had so much positive feedback since launching the site (most people use the word 'amazing!' to describe it), I wouldn't hesitate to recommend HTMLfiveDev.com to anyone looking for a website designer that's a cut above the rest.",
+    name: "Lillian Lue",
+    designation: "CTO",
+    company: "VisaAsiaOnline.com",
+    image: lilian,
   },
 ];
 
@@ -771,7 +774,7 @@ const projectsFullStack = [
   {
     name: "Portfolio Sanity",
     description:
-      "This is my first attempt at my own portfolio. React is used at the frontend and Sanity.io at as a headless CMS at the backend. Pure SCSS was used for styling and Framer Motion was used for animation.",
+      "This is my first attempt at my own portfolio. React is used at the frontend and Sanity.io at as a headless CMS at the backend. Pure SCSS was used for styling & mobile responsiveness. Framer Motion was used for animation. Also two higher order components were used for social media icons and side navigation dots",
     tags: [
       {
         name: "react",

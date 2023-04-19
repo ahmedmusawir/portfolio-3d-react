@@ -66,6 +66,24 @@ const Experience = () => {
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Experience.
         </h2>
+        <div className="flex flex-col sm:flex-row sm:justify-between w-full mx-auto">
+          <a
+            href="https://www.linkedin.com/in/ahmedmusawir/details/experience/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="py-2 px-10 border hover:bg-gray-700 w-70 text-center self-center my-3"
+          >
+            Full Resume
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ahmedmusawir/details/certifications/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="py-2 px-10 border hover:bg-gray-700 sm:ml-2 self-center w-70 text-center"
+          >
+            Other Achievements
+          </a>
+        </div>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
