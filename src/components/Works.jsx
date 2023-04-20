@@ -85,6 +85,13 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
+      <h4
+        className="mt-10 text-center text-[2.5rem]"
+        style={{ marginTop: "4rem" }}
+      >
+        React Frontend w/ API-s
+      </h4>
+
       <div className="w-full flex justify-center">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
