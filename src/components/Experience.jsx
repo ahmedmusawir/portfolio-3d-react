@@ -12,6 +12,8 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
+const isSmallDevice = () => window.innerWidth < 1200;
+
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
@@ -57,9 +59,14 @@ const ExperienceCard = ({ experience }) => {
 };
 
 const Experience = () => {
+  const TextElement = isSmallDevice() ? "div" : motion.div;
+
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <TextElement
+        variants={isSmallDevice() ? {} : textVariant()}
+        className="text-center"
+      >
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
         </p>
@@ -84,7 +91,7 @@ const Experience = () => {
             Other Achievements
           </a>
         </div>
-      </motion.div>
+      </TextElement>
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

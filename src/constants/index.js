@@ -69,7 +69,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Full Stack (APIs/CMSs)",
+    title: "Full Stack (CMS-s)",
     icon: backend,
   },
 ];
