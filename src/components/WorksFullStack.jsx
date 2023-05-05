@@ -9,6 +9,8 @@ import { projectsFullStack } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { BsEye, BsFillEyeFill } from "react-icons/bs";
 
+const isSmallDevice = () => window.innerWidth < 1200;
+
 const ProjectCard = ({
   index,
   name,
@@ -17,9 +19,16 @@ const ProjectCard = ({
   image,
   source_code_link,
   project_link,
+  disableAnimations,
 }) => {
+  const CardElement = disableAnimations ? "div" : motion.div;
+
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <CardElement
+      variants={
+        disableAnimations ? {} : fadeIn("up", "spring", index * 0.5, 0.75)
+      }
+    >
       <Tilt
         options={{
           max: 45,
@@ -73,7 +82,7 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </CardElement>
   );
 };
 
@@ -86,7 +95,12 @@ const WorksFullStack = () => {
 
       <div className="mt-10 flex flex-wrap gap-7 justify-center">
         {projectsFullStack.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <ProjectCard
+            key={`project-${index}`}
+            index={index}
+            {...project}
+            disableAnimations={isSmallDevice()}
+          />
         ))}
       </div>
     </>
