@@ -16,7 +16,7 @@ const FeedbackCard = ({
   company,
   image,
 }) => (
-  <div className="bg-black-200 p-10 rounded-3xl xs:w-[320px] sm:w-full">
+  <div className="bg-black p-10 rounded-3xl xs:w-[320px] sm:w-full">
     <p className="text-white font-black text-[48px]">"</p>
 
     <div className="mt-1">

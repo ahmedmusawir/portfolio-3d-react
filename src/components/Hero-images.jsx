@@ -47,31 +47,24 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute inset-0 flex justify-center items-center">
-        <img
-          src={HeroDesktop}
-          alt="TheMoose"
-          className="object-contain w-full mt-36 lg:mt-44 xl:mt-56 xl:w-10/12 2xl:w-8/12"
-          // className="object-contain w-full sm:w-1/2 mt-72 sm:mt-64"
-        />
-      </div>
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center bottom-12">
-        <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
-            />
-          </div>
-        </a>
-      </div>
+      {smallDevice ? (
+        <div className="absolute inset-0 flex justify-center items-center">
+          <img
+            src={TheMoose}
+            alt="TheMoose"
+            className="object-contain w-full sm:w-1/2 mt-72 sm:mt-64"
+          />
+        </div>
+      ) : (
+        <div className="absolute inset-0 flex justify-center items-center">
+          <img
+            src={HeroDesktop}
+            alt="TheMoose"
+            className="object-contain w-full sm:w-1/2 mt-72 sm:mt-64"
+          />
+        </div>
+        // <ComputersCanvas />
+      )}
     </section>
   );
 };

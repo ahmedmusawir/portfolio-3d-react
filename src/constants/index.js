@@ -38,6 +38,8 @@ import {
   arturo,
   rami,
   lilian,
+  gmb,
+  filmpire,
 } from "../assets";
 
 export const navLinks = [
@@ -279,6 +281,71 @@ const projects = [
     project_link: "https://www.youtube.com/watch?v=HQGNrzJOHx0",
   },
   {
+    name: "GMB Project",
+    description:
+      "This is a React/Redux based Google My Business research tool for our agency Cyberizegroup. I used Google Map API, Places API and Local Ranking API to accomplish the task. SCSS and Tailwind were used for styling.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google-map-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux-toolkit",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gmb,
+    source_code_link:
+      "https://github.com/ahmedmusawir/cyberize-gmb-ranking-react-api",
+    project_link: "https://www.youtube.com/watch?v=rbb5h6bBaP4",
+  },
+  {
+    name: "Netflix Clone",
+    description:
+      "This is a React/Redux based project with heavy API work and Alan AI based voice prompting ability. TMDB API was used for backend data and authentication. SCSS and Material UI were used for styling and mobile responsive work. ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "alan-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tmdb-api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: filmpire,
+    source_code_link: "https://github.com/ahmedmusawir/netflix-clone",
+    project_link: "https://www.youtube.com/watch?v=5eVlXb9kcXk&t=1s",
+  },
+  {
     name: "Cyber Gym",
     description:
       "A React App based on GoldGym's API as a backend datasource. Material UI and SCSS were used for styling. Redux Toolkit was used for data fetching & caching. A YouTube Search API was used to bring in related workout videos",
@@ -309,39 +376,9 @@ const projects = [
     project_link: "https://www.youtube.com/watch?v=IHU5PL2Hk_Q&t=8s",
   },
   {
-    name: "SelfLIST Chat",
-    description:
-      "A React based Chat App created to be used in the SelfLIST App. At the backend Chat API service was used. After building, this was converted into a WordPress plugin and used in the SelfLIST app. Gulp.js was used for React and SCSS compilation.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "chat-api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "php",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "green-text-gradient",
-      },
-    ],
-    image: chatapi,
-    source_code_link: "https://github.com/ahmedmusawir/moose-chat-plugin-v2",
-    project_link: "https://www.youtube.com/watch?v=bTtGNLYV66w&t=91s",
-  },
-  {
     name: "Chat GPT v3",
     description:
-      "Created a frontend interface (w/ vanilla JS) and a middleware (Node/Express) to connect with Open AI API at the backend. SCSS was used to styling. Both frontend and the middleware were deployed with Docker.",
+      "Created a frontend interface (w/ vanilla JS) and a middleware (Node/Express) to connect with Open AI API at the backend. SCSS was used to styling. Both frontend and the middleware were deployed with Docker. The text-davinci-003 model was used.",
     tags: [
       {
         name: "es6-javascript",
@@ -440,6 +477,36 @@ const projects = [
     source_code_link:
       "https://github.com/ahmedmusawir/travel-advisor-react-api",
     project_link: "https://www.youtube.com/watch?v=mebvSt4gShQ",
+  },
+  {
+    name: "SelfLIST Chat",
+    description:
+      "A React based Chat App created to be used in the SelfLIST App. At the backend Chat API service was used. After building, this was converted into a WordPress plugin and used in the SelfLIST app. Gulp.js was used for React and SCSS compilation.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chat-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+    ],
+    image: chatapi,
+    source_code_link: "https://github.com/ahmedmusawir/moose-chat-plugin-v2",
+    project_link: "https://www.youtube.com/watch?v=bTtGNLYV66w&t=91s",
   },
 ];
 

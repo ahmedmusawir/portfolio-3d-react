@@ -51,6 +51,9 @@ import arturo from "./arturo-kyle.jpg";
 import rami from "./rami-riza.jpg";
 import lilian from "./lillian-lue.jpg";
 
+import filmpire from "./filmpire.jpg";
+import gmb from "./gmb.jpg";
+
 export {
   logo,
   backend,
@@ -89,6 +92,8 @@ export {
   folio3d,
   folioSanity,
   gym,
+  gmb,
+  filmpire,
   rico,
   travel,
   storeSanity,
