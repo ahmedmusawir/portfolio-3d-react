@@ -42,6 +42,7 @@ import {
   filmpire,
   cyberjobs,
   gamespot,
+  tensorflow,
 } from "../assets";
 
 export const navLinks = [
@@ -228,12 +229,12 @@ const projectsFeatured = [
         color: "blue-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "tailwindcss",
+        color: "green-text-gradient",
       },
     ],
     image: cyberjobs,
@@ -251,7 +252,7 @@ const projectsFeatured = [
         color: "blue-text-gradient",
       },
       {
-        name: "react-query",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
@@ -270,11 +271,50 @@ const projectsFeatured = [
         name: "rawg-api",
         color: "pink-text-gradient",
       },
+      {
+        name: "react-query",
+        color: "green-text-gradient",
+      },
     ],
     image: gamespot,
     source_code_link:
       "https://github.com/ahmedmusawir/games-react-query-ts-2023",
     project_link: "https://youtu.be/78KM62BP2qg",
+  },
+  {
+    name: "Tensorflow.js/ML",
+    description:
+      "A few proof of concept projects for Cyberize Group using vanilla JS, React.js, Tensorflow.js and a few pre-made Machine Learning models. Also created & used my own model using Teachable Machines.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tensorflow-js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mobilenet",
+        color: "green-text-gradient",
+      },
+      {
+        name: "teachable-machines",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tensorflow,
+    source_code_link:
+      "https://github.com/ahmedmusawir/tensorflow-mobilenet-img-models",
+    project_link: "https://youtu.be/Az3PoNfWysA",
   },
 ];
 
