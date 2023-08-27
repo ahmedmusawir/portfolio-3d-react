@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { projectsFeatured } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { BsFillEyeFill } from "react-icons/bs";
 
@@ -87,13 +87,13 @@ const ProjectCard = ({
   );
 };
 
-const Works = () => {
+const WorksFeatured = () => {
   const TextElement = isSmallDevice() ? "div" : motion.div;
   const ParagraphElement = isSmallDevice() ? "p" : motion.p;
 
   return (
     <>
-      {/* <TextElement
+      <TextElement
         variants={isSmallDevice() ? {} : textVariant()}
         className="text-center"
       >
@@ -112,18 +112,17 @@ const Works = () => {
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </ParagraphElement>
-      </div> */}
+      </div>
 
       <h4
         className="mt-10 text-center text-[2.5rem]"
         style={{ marginTop: "4rem" }}
       >
-        React Frontend w/ API-s
+        Featured Projects
       </h4>
 
       <div className="mt-20 flex flex-wrap gap-7 justify-center">
-        {projects.map((project, index) => (
-          // <ProjectCard key={`project-${index}`} index={index} {...project} />
+        {projectsFeatured.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}
             index={index}
@@ -136,4 +135,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "work");
+export default SectionWrapper(WorksFeatured, "work");

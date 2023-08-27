@@ -13,6 +13,7 @@ import {
   WorksFullStack,
   StarsCanvas,
 } from "./components";
+import WorksFeatured from "./components/WorksFeatured";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         </div>
         <About />
         <Tech />
+        <WorksFeatured />
         <Works />
         <WorksFullStack />
         <WorksUiUx />

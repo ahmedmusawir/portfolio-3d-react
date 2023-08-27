@@ -52,6 +52,8 @@ import rami from "./rami-riza.jpg";
 import lilian from "./lillian-lue.jpg";
 
 import filmpire from "./filmpire.jpg";
+import cyberjobs from "./cyberjobs.jpg";
+import gamespot from "./gamespot.jpg";
 import gmb from "./gmb.jpg";
 
 export {
@@ -104,4 +106,6 @@ export {
   arturo,
   rami,
   lilian,
+  cyberjobs,
+  gamespot,
 };

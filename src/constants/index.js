@@ -40,6 +40,8 @@ import {
   lilian,
   gmb,
   filmpire,
+  cyberjobs,
+  gamespot,
 } from "../assets";
 
 export const navLinks = [
@@ -200,6 +202,79 @@ const testimonials = [
     designation: "CTO",
     company: "VisaAsiaOnline.com",
     image: lilian,
+  },
+];
+
+const projectsFeatured = [
+  {
+    name: "Cyber Jobs",
+    description:
+      "This is a Next.js 13 & Typescript based app MVP for a CyberizeGroup client. Strapi v4 was used as the backend CMS. Styling and Responsive work was done with Tailwind and SCSS",
+    tags: [
+      {
+        name: "nextjs-13",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "strapi-v4",
+        color: "green-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "context-api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cyberjobs,
+    source_code_link:
+      "https://github.com/ahmedmusawir/cyber-jobs-v1-next13-pages-ts",
+    project_link: "https://youtu.be/p1YvEPt9J50",
+  },
+  {
+    name: "GameSpot",
+    description:
+      "A React project with RAWG Game DB API. React Query & Axios were used for data fetching and caching. State management was done with Zustand library. This was an R&D project for Cyberize Group.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-query",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "zustand",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rawg-api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gamespot,
+    source_code_link:
+      "https://github.com/ahmedmusawir/games-react-query-ts-2023",
+    project_link: "https://youtu.be/78KM62BP2qg",
   },
 ];
 
@@ -871,6 +946,7 @@ export {
   technologies,
   experiences,
   testimonials,
+  projectsFeatured,
   projects,
   projectsUiUx,
   projectsFullStack,

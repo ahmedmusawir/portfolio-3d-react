@@ -88,6 +88,9 @@ const ProjectCard = ({
 };
 
 const WorksFullStack = () => {
+  const TextElement = isSmallDevice() ? "div" : motion.div;
+  const ParagraphElement = isSmallDevice() ? "p" : motion.p;
+
   return (
     <>
       <h4 className="text-center text-[2.5rem]" style={{ marginTop: "-4rem" }}>
